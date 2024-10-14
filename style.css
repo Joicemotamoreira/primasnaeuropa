@@ -147,12 +147,50 @@ header a {
 
 .places-homepage {
   background-color: var(--secondary-neutral-color);
-  padding: 70px 170px;
+  padding: 70px 250px;
   text-align: center;
 }
 .places-homepage h1 {
   font-family: var(--heading-font-family);
   font-weight: 700;
+  color: var(--dark-color);
+}
+
+.cards-grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card-container {
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  width: 200px;
+  height: 500px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+
+.card-container h3 {
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  color: var(--secondary-branding-color);
+  font-size: 32px;
+}
+
+.card-container p {
+  font-family: var(--default-font-family);
+  color: var(--secondary-branding-color);
+}
+
+.card-container button {
+  background-color: white;
+  border: 1px solid var(--dark-color);
+  font-family: var(--default-font-family);
+  color: var(--dark-color);
+  padding: 6px 35px;
+  border-radius: 6px;
 }
 
 @media screen and (max-width: 625px) {
