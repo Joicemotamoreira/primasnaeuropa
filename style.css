@@ -1,3 +1,27 @@
-h1 {
-  color: blueviolet;
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oooh-baby-regular {
+  font-family: "Oooh Baby", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --branding-color: #a6d1e4;
+  --secondary-branding-color: #5882bc;
+  --neutral-color: #faffeb;
+  --secondary-neutral-color: #fec0c1;
+  --girl-color: #c4aff1;
+  --dark-color: #0e314f;
+
+  --heading-font-family: "Oooo Baby", cursive;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--neutral-color);
 }
