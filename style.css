@@ -12,6 +12,8 @@
 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  font-size: 40px !important;
+  color: var(--dark-color) !important;
 }
 
 html {
@@ -19,11 +21,11 @@ html {
 }
 
 :root {
-  --branding-color: #a6d1e4;
+  --branding-color: #65d7d7;
   --secondary-branding-color: #5882bc;
   --neutral-color: #faffeb;
   --secondary-neutral-color: #fec0c18f;
-  --girl-color: #c4aff1;
+  --girl-color: #fec0c1;
   --dark-color: #0e314f;
 
   --heading-font-family: "Oooh Baby", cursive;
@@ -119,20 +121,38 @@ header a {
 }
 
 .main-homepage {
-  padding: 60px 20px;
+  padding: 90px 170px;
   text-align: center;
-  color: var(--secondary-branding-color);
+  color: #c4aff1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-h1 {
+.main-homepage h1 {
   font-family: var(--heading-font-family);
+  color: var(--dark-color);
   font-weight: 700;
   font-size: 55px;
 }
 
 .main-homepage p {
   font-family: var(--default-font-family);
-  color: var(--dark-color);
+  color: var(--secondary-branding-color);
+}
+
+.main-homepage div {
+  color: var(--secondary-branding-color);
+}
+
+.places-homepage {
+  background-color: var(--secondary-neutral-color);
+  padding: 70px 170px;
+  text-align: center;
+}
+.places-homepage h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
 }
 
 @media screen and (max-width: 625px) {
