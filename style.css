@@ -34,14 +34,6 @@ body {
   background-color: var(--neutral-color);
 }
 
-h1 {
-  font-family: var(--heading-font-family);
-}
-
-p {
-  font-family: var(--default-font-family);
-}
-
 header {
   position: sticky;
   top: 0;
@@ -50,6 +42,13 @@ header {
   -webkit-backdrop-filter: blur(10px);
   z-index: 999;
   font-family: var(--default-font-family);
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  display: flex;
+  align-items: center;
 }
 
 .small-logo {
@@ -74,17 +73,10 @@ header {
   color: white;
 }
 .menu {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 5px 35px;
-  max-width: 1200px;
-  margin: auto;
 }
-.menuToggle {
-  display: flex;
-  justify-content: flex-end;
-}
+
 .menu-toggle {
   display: none;
   font-size: 24px;
@@ -124,6 +116,23 @@ header {
 .newMenuLinks a {
   text-decoration: none;
   color: var(--secondary-branding-color);
+}
+
+.main-homepage {
+  padding: 60px 20px;
+  text-align: center;
+  color: var(--secondary-branding-color);
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 55px;
+}
+
+.main-homepage p {
+  font-family: var(--default-font-family);
+  color: var(--dark-color);
 }
 
 @media screen and (max-width: 625px) {
