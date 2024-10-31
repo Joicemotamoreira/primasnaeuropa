@@ -134,26 +134,30 @@ header a {
 }
 
 .places-homepage {
-  background-color: var(--secondary-neutral-color);
-  padding: 70px 250px;
+  background-color: white;
   text-align: center;
+  padding: 30px 0;
 }
 .places-homepage h1 {
+  margin-bottom: 60px;
   font-family: var(--heading-font-family);
   font-weight: 700;
   color: var(--dark-color);
 }
 
 .cards-grid {
-  margin-top: 60px;
+  margin: auto;
   display: grid;
+  grid-gap: 40px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 1200px;
+  max-height: 650px;
 }
 .card-container {
   border: 1px solid lightgray;
   border-radius: 6px;
-  width: 200px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   text-align: center;
   background-color: white;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
@@ -179,13 +183,14 @@ header a {
   color: var(--dark-color);
   padding: 6px 35px;
   border-radius: 6px;
+  margin-bottom: 30px;
 }
 
 footer {
   text-align: center;
   padding: 20px;
   color: var(--secondary-branding-color);
-  background-color: var(--neutral-color);
+  background-color: white;
 }
 
 @media screen and (max-width: 625px) {
