@@ -139,8 +139,7 @@ header a {
 .places-homepage {
   background-color: white;
   text-align: center;
-  padding: 30px 0;
-  max-width: 1300px;
+  padding: 60px 120px;
   margin: auto;
 }
 .places-homepage h1 {
